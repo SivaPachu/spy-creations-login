@@ -16,14 +16,14 @@ Developing SPY Creations helped me strengthen my understanding of full-stack API
 
 ## ✨ Features
 
-✅ Immersive Detective-Themed UI with High-Contrast Dark Mode 🕵️‍♂️
-✅ Real-Time User Registration & Login Authentication 🔑
-✅ Local Storage Session Persistence Across Page Refreshes 💾
-✅ Production CORS Protection & Domain Whitelisting 🛡️
-✅ Dynamic Backend Port Binding for Cloud Hosting 🌐
-✅ Modern Form Input Validation & Error Messaging ⚠️
-✅ Decoupled Microservice Deployment (Vercel + Render) 🚀
-✅ Fully Responsive Design across Desktop, Tablet, and Mobile 📱
+* ✅ Immersive Detective-Themed UI with High-Contrast Dark Mode 🕵️‍♂️
+* ✅ Real-Time User Registration & Login Authentication 🔑
+* ✅ Local Storage Session Persistence Across Page Refreshes 💾
+* ✅ Production CORS Protection & Domain Whitelisting 🛡️
+* ✅ Dynamic Backend Port Binding for Cloud Hosting 🌐
+* ✅ Modern Form Input Validation & Error Messaging ⚠️
+* ✅ Decoupled Microservice Deployment (Vercel + Render) 🚀
+* ✅ Fully Responsive Design across Desktop, Tablet, and Mobile 📱
 
 ---
 
