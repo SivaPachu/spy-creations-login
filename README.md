@@ -72,10 +72,10 @@ You can explore the live website using the link above and provide your valuable 
 Feedback and suggestions are always welcome! 😊
 If you have any ideas for improvements or new features, feel free to:
 
-⭐ Star this repository
-🐛 Report issues
-🍴 Fork the project
-📩 Share your suggestions and feedback
+* ⭐ Star this repository
+* 🐛 Report issues
+* 🍴 Fork the project
+* 📩 Share your suggestions and feedback
 
 ---
 
