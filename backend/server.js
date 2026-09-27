@@ -2,10 +2,32 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const PORT = 5000;
+
+const PORT = process.env.PORT || 5000;
 
 
-app.use(cors());
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:3000',
+  'https://frontend-rust-ten-uhhcezg9c1.vercel.app'
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    
+    if (!origin) return callback(null, true);
+
+    if (allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('CORS policy error: Origin not allowed.'));
+    }
+  },
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(express.json());
 
 const usersDB = [
@@ -63,5 +85,5 @@ app.post('/api/login', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`SPY Creations API server running at http://localhost:${PORT}`);
+  console.log(`SPY Creations API server running on port ${PORT}`);
 });
