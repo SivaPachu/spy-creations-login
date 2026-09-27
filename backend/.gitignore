@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables
+.env
+*.env
+.env.local
+
+# Build Outputs
+dist/
+build/
+.vercel/
+
+# OS & Log files
+.DS_Store
+*.log
